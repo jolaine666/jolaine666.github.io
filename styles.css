@@ -17,8 +17,8 @@ tyyli {
     height: 100px;
 }
 kirjaimet{
-  list-style-type: lower-alpha
+  list-style-type: lower-alpha;
 }
 neliot{
-  list-style-type: square
+  list-style-type: square;
 }
