@@ -9,7 +9,7 @@ p {
   font-size: 12px;
   color: green;
 }
-tyyli {
+.tyyli {
     border-style: dotted;
     border-color: white;
     border-width: 2px;
@@ -22,7 +22,7 @@ tyyli {
 .neliot{
   list-style-type: square;
 }
-warning {
+.warning {
   border: 30px outset red;
   color: black;
   background-color: yellow;
