@@ -10,8 +10,8 @@ p {
   color: green;
 }
 tyyli {
-    border: outset red;
     border-style: dotted;
+    border: white;
     border-width: 2px;
     width: 100px;
     height: 100px;
