@@ -16,10 +16,10 @@ tyyli {
     width: 100px;
     height: 100px;
 }
-kirjaimet{
+.kirjaimet{
   list-style-type: lower-alpha;
 }
-neliot{
+.neliot{
   list-style-type: square;
 }
 warning {
