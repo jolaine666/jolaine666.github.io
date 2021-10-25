@@ -7,10 +7,25 @@ h1 {
 }
 p {
   font-size: 12px;
+  color: green;
 }
-tyyli {
+.tyyli {
     border-style: dotted;
+    border-color: white;
     border-width: 2px;
     width: 100px;
     height: 100px;
+}
+.kirjaimet{
+  list-style-type: lower-alpha;
+}
+.neliot{
+  list-style-type: square;
+}
+.warning {
+  border: 30px outset red;
+  color: black;
+  background-color: yellow;
+  text-align: center;
+  font-size: 40px;
 }
