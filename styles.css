@@ -11,7 +11,7 @@ p {
 }
 tyyli {
     border-style: dotted;
-    border: white;
+    border-color: white;
     border-width: 2px;
     width: 100px;
     height: 100px;
