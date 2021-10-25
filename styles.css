@@ -22,3 +22,10 @@ kirjaimet{
 neliot{
   list-style-type: square;
 }
+warning {
+  border: 30px outset red;
+  color: black;
+  background-color: yellow;    
+  text-align: center;
+  font-size: 40px;
+}
