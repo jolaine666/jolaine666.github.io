@@ -1,13 +1,16 @@
 body {
   background-color: black;
   color: white;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 h1 {
   font-size: 20px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 p {
   font-size: 12px;
   color: green;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 .tyyli {
     border-style: dotted;
@@ -15,6 +18,7 @@ p {
     border-width: 2px;
     width: 100px;
     height: 100px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 .kirjaimet{
   list-style-type: lower-alpha;
@@ -28,4 +32,5 @@ p {
   background-color: yellow;
   text-align: center;
   font-size: 40px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
