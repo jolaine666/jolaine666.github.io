@@ -7,6 +7,12 @@ h1 {
   font-size: 20px;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
+.kirjaimet{
+  list-style-type: lower-alpha;
+}
+.neliot{
+  list-style-type: square;
+}
 p {
   font-size: 12px;
   color: green;
@@ -19,12 +25,6 @@ p {
     width: 100px;
     height: 100px;
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-}
-.kirjaimet{
-  list-style-type: lower-alpha;
-}
-.neliot{
-  list-style-type: square;
 }
 .warning {
   border: 30px outset red;
