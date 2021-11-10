@@ -5,8 +5,13 @@ body {
 h1 {
   font-size: 30px;
 }
+h2 {
+  
+}
 h3 {
   border-style: solid;
+  border-width: 10px;
+  max-width: max-content;
 }
 p {
   font-size: 20px;
