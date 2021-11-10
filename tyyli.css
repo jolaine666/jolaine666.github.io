@@ -26,6 +26,7 @@ p {
 }
 .warning {
   border: 30px outset red;
+  border-radius: 10%;
   color: black;
   background-color: yellow;
   text-align: center;
