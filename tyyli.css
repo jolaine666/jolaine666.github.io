@@ -10,8 +10,9 @@ h2 {
 }
 h3 {
   border-style: solid;
-  border-width: 10px;
+  border-width: 5px;
   max-width: max-content;
+  text-align: center;
 }
 p {
   font-size: 20px;
