@@ -7,6 +7,7 @@ h1 {
 }
 h3 {
   border-style: solid;
+  padding: 10px;
 }
 p {
   font-size: 20px;
