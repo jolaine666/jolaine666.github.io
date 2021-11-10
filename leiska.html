@@ -22,17 +22,8 @@ header {
   color: white;
 }
 
-/* Style the header2 */
-nav {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-
 /* Create two columns/boxes that floats next to each other */
-section1 {
+nav {
   float: left;
   width: 30%;
   height: 300px; /* only for demonstration, should be removed */
@@ -40,23 +31,26 @@ section1 {
   padding: 20px;
 }
 
-/* Create two columns/boxes that floats next to each other */
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 article {
   float: left;
-  width: 30%;
-  height: 300px; /* only for demonstration, should be removed */
-  background: #ccc;
-  padding: 20px;
-}
-
-aside {
-  float: right;
   padding: 20px;
   width: 70%;
   background-color: #f1f1f1;
   height: 300px; /* only for demonstration, should be removed */
 }
 
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* Style the footer */
 footer {
@@ -107,4 +101,5 @@ footer {
 
 </body>
 </html>
+
 
