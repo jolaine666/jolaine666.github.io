@@ -17,11 +17,26 @@ body {
 }
     
 .nav {
-    border: 3px solid; 
     margin: auto;
-    width: 80%;
+    width: 40%;
     padding: 10px;
     text-decoration: none;
+    text-align: center;
+    }
+
+a:link, a:visited {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    }
+      
+a:hover, a:active {
+    background-color: white;
+    color: green;
     }
 
 .main {
@@ -32,6 +47,12 @@ body {
 .section {
     margin: auto;
     width: 90%;
+    }
+
+.section-c {
+    margin: auto;
+    width: 90%;
+    text-align: center;
     }
 
 .article {
@@ -46,6 +67,17 @@ body {
 
     }
 
+.column-rules {
+    border: 1px solid white;
+    width:fit-content;
+    padding: 5%;
+    text-align: center;
+    margin: auto;
+    }
+
+/* nappulat */
+
+
 /* linkit */
 a:link {
     text-decoration: none;
@@ -58,20 +90,22 @@ a:visited {
   }
   
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: black;
   }
   
 a:active {
-    text-decoration: underline;
+    text-decoration: none;
+    color: black;
   }
 
 /* tyylit */ 
 .alphabullet {
-  list-style-type: lower-alpha;
+    list-style-type: lower-alpha;
     }
 
 .boxbullet {
-  list-style-type: square;
+    list-style-type: square;
     }
 
 /* muotoilut */
@@ -89,7 +123,7 @@ video.center {
     }
 
 .warning {
-    border: 30px outset red;
+    border: 20px outset red;
     color: black;
     background-color: yellow;
     font-size: 40px;
