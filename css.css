@@ -56,15 +56,15 @@ a:hover, a:active {
     }
 
 .article {
-
+    text-align: left;
     }
 
 .aside  {
-
+    text-align: left;
     }
 
 .footer {
-
+    text-align: left;
     }
 
 .column-rules {
