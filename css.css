@@ -1,6 +1,12 @@
 * {
     box-sizing: border-box;
     }
+
+body {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    }
     
 /* navigaatiot */ 
 
@@ -14,52 +20,73 @@
     border: 3px solid; 
     margin: auto;
     width: 80%;
-    padding: 20px;
-}
+    padding: 10px;
+    text-decoration: none;
+    }
 
 .main {
     margin: auto;
     width: 90%;
-}
+    }
 
 .section {
- 
-}
+    margin: auto;
+    width: 90%;
+    }
 
 .article {
 
-}
+    }
 
 .aside  {
 
-}
+    }
 
 .footer {
 
     }
 
+/* linkit */
+a:link {
+    text-decoration: none;
+    color: white;
+  }
+  
+a:visited {
+    text-decoration: none;
+    color: white;
+  }
+  
+a:hover {
+    text-decoration: underline;
+  }
+  
+a:active {
+    text-decoration: underline;
+  }
+
 /* tyylit */ 
 .alphabullet {
   list-style-type: lower-alpha;
-}
+    }
+
 .boxbullet {
   list-style-type: square;
-
-}
+    }
 
 /* muotoilut */
 
 div.nomics {
     display: block;
-    margin-left: auto;
-    margin-right: auto;   
-}
+    margin-left: 20%;
+    margin-right: 20%;   
+    }
 
 video.center {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
+    }
 
 .warning {
     border: 30px outset red;
@@ -69,4 +96,4 @@ video.center {
     width: 60%;
     text-align: center;
     margin: auto;
-}
+    }
