@@ -70,6 +70,15 @@ a:hover, a:active {
 
 }
 
+.article2 {
+    float: left;
+    background-color: cornflowerblue;
+    width: 40%;
+    padding: 0px;
+    margin-top: 0;
+    height: 900px;
+}
+
 .aside  {
     text-align: left;
 }
@@ -81,12 +90,13 @@ a:hover, a:active {
     padding: 20px;
 }
 
-.column-rules {
-    border: 3px solid white;
-    width:fit-content;
+.kolumni {
+    border: white;
+    width: 90%;
     padding: 10px;
-    text-align: center;
-    margin: auto;
+    text-align: left;
+    margin: 40px;
+    word-wrap: break-word;
 }
 
 /* clearfix hack */
