@@ -39,7 +39,7 @@ body {
     float: left;
     text-align: center;
     background-color: cyan;
-    height: 1325px;
+    height: 1350px;
     width: 20%;
     padding-top: 40px;
 }
@@ -77,10 +77,20 @@ a:hover, a:active {
     background-color: cornflowerblue;
     width: 80%;
     padding: 0px;
+    height: 900px;
 
 }
 
 .article2 {
+    float: left;
+    background-color: cornflowerblue;
+    width: 80%;
+    padding: 0px;
+    margin-top: 0;
+    height: 1350px;
+}
+
+.article3 {
     float: left;
     background-color: cornflowerblue;
     width: 40%;
