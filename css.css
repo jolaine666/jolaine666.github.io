@@ -23,19 +23,16 @@ body {
     
 .nav {
     float: center;
-    display: block;
     text-align: center;
     background-color: lightgreen;
 }
 
 .nav2 {
     float: left;
-    display: block;
-    overflow: hidden;
     text-align: center;
     background-color: cyan;
+    height: 900px;
     width: 20%;
-    
 }
 
 /* clear floats after the columns */
@@ -49,11 +46,12 @@ section::after {
 a:link, a:visited {
     background-color: black;
     color: white;
-    border: none;
-    padding: 10px 30px;
+    border: 0;
+    padding: 10px 0px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    width: 180px;
 }
       
 a:hover, a:active {
@@ -69,7 +67,8 @@ a:hover, a:active {
     float: left;
     background-color: cornflowerblue;
     width: 80%;
-    padding: 20 px;
+    padding: 0px;
+
 }
 
 .aside  {
@@ -93,6 +92,7 @@ a:hover, a:active {
 }
 
 /* clearfix hack */
+
 .clearfix::after {
     content: "";
     clear: both;
@@ -101,25 +101,18 @@ a:hover, a:active {
 
 /* nappulat */
 
-
-/* linkit */
-a:link {
-    text-decoration: none;
+a:link { 
     color: white;
 }
   
 a:visited {
-    text-decoration: none;
     color: white;
 }
   
 a:hover {
-    text-decoration: none;
     color: green;
 }
-  
-a:active {
-    text-decoration: none;
+a:active {  
     color: green;
 }
 
