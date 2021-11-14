@@ -82,7 +82,7 @@ a:hover, a:active {
 }
 
 .column-rules {
-    border: 1px solid white;
+    border: 3px solid white;
     width:fit-content;
     padding: 5%;
     text-align: center;
