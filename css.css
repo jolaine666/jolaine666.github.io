@@ -22,7 +22,6 @@ body {
 }
     
 .nav {
-    float: center;
     text-align: center;
     background-color: lightgreen;
 }
@@ -80,7 +79,6 @@ a:hover, a:active {
     color: darkslategrey;
     background-color: lightgrey;
     padding: 20px;
-    float: bottom;
 }
 
 .column-rules {
