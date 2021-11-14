@@ -32,6 +32,16 @@ body {
     background-color: cyan;
     height: 900px;
     width: 20%;
+    padding-top: 40px;
+}
+
+.nav3 {
+    float: left;
+    text-align: center;
+    background-color: cyan;
+    height: 1325px;
+    width: 20%;
+    padding-top: 40px;
 }
 
 /* clear floats after the columns */
