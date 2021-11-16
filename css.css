@@ -3,8 +3,8 @@
 }
 
 body {
-    background-color: darkgrey;
-    color: white;
+    background-color: black;
+    color: green;
     text-decoration: none;
     width: 90%;
     margin-left: auto;
@@ -18,32 +18,14 @@ body {
     padding: 10px;
     text-align: center;
     font-size: 35px;
-    background-color: thistle;
+    background-color: black;
 }
     
 .navi {
     text-align: center;
     padding: none;
     margin: none;
-    background-color: lightgreen;
-}
-
-.nav2 {
-    float: left;
-    text-align: center;
-    background-color: cyan;
-    height: 900px;
-    width: 20%;
-    padding-top: 40px;
-}
-
-.nav3 {
-    float: left;
-    text-align: center;
-    background-color: cyan;
-    height: 1350px;
-    width: 20%;
-    padding-top: 40px;
+    background-color: black;
 }
 
 /* clear floats after the columns */
@@ -57,12 +39,12 @@ section::after {
 a:link, a:visited {
     background-color: black;
     color: white;
-    border: 0;
-    padding: 10px 0px;
+    border: none;
+    padding: 10px 10px 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    width: 180px;
+    width: 100px;
 }
       
 a:hover, a:active {
@@ -81,56 +63,33 @@ a:hover, a:active {
 
 .menyy   {
     display: table-cell;
-    padding: 5px;
+    padding: 50px;
     text-align: center;
     width: 20%;
-    background-color: cyan;
+    background-color: black;
+    border-right: solid rgb(40, 40, 40) 1px;
 }
 
 .kolumni1 {
     display: table-cell;
     padding: 5px;
     width: 80%;
-    background-color: cornflowerblue;
+    background-color: black;
 }
 
 
 .kolumni1-2 {
     display: table-cell;
-    padding: 5px;
+    padding: 20px 140px 0px 0px;
     width: 40%;
+    background-color: black;
 }
 
 .kolumni2-2{
     display: table-cell;
-    padding: 5px;
+    padding: 20px 0px 0px 20px;
     width: 40%;
-}
-
-.article {
-    float: left;
-    width: 80%;
-    padding: 0px;
-    height: 900px;
-    background-color: cornflowerblue;
-}
-
-.article2 {
-    float: left;
-    background-color: blue;
-    width: 80%;
-    padding: 0px;
-    margin-top: 0;
-    height: 1350px;
-}
-
-.article3 {
-    float: left;
-    background-color: blueviolet;
-    width: 40%;
-    padding: 0px;
-    margin-top: 0;
-    height: 900px;
+    background-color: black;
 }
 
 .aside  {
@@ -139,8 +98,8 @@ a:hover, a:active {
 
 .footer {
     text-align: center;
-    color: darkslategrey;
-    background-color: lightgrey;
+    color: green;
+    background-color: black;
     padding: 20px;
 }
 
@@ -152,22 +111,6 @@ a:hover, a:active {
     display: table;
 }
 
-/* nappulat */
-
-a:link { 
-    color: white;
-}
-  
-a:visited {
-    color: white;
-}
-  
-a:hover {
-    color: green;
-}
-a:active {  
-    color: green;
-}
 
 
 /* tyylit */ 
@@ -183,8 +126,9 @@ a:active {
 
 div.nomics {
     display: block;
-    margin-left: 20%;
-    margin-right: 20%;   
+    margin-left: 0%;
+    margin-right: 0%; 
+    padding: 10px; 
 }
 
 video.center {

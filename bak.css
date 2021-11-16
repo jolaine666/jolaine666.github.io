@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgrey;
+    color: white;
+    text-decoration: none;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+/* navigaatiot */ 
+
+.header {
+    padding: 10px;
+    text-align: center;
+    font-size: 35px;
+    background-color: thistle;
+}
+    
+.navi {
+    text-align: center;
+    padding: none;
+    margin: none;
+    background-color: lightgreen;
+}
+
+/* clear floats after the columns */
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+a:link, a:visited {
+    background-color: black;
+    color: white;
+    border: 0;
+    padding: 10px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 180px;
+}
+      
+a:hover, a:active {
+    background-color: white;
+    color: green;
+}
+
+.main {
+    margin: auto;
+}
+
+.kolumnikontti {
+    display: table;
+    width: 100%;
+}
+
+.menyy   {
+    display: table-cell;
+    padding: 5px;
+    text-align: center;
+    width: 20%;
+    background-color: cyan;
+}
+
+.kolumni1 {
+    display: table-cell;
+    padding: 5px;
+    width: 80%;
+    background-color: cornflowerblue;
+}
+
+
+.kolumni1-2 {
+    display: table-cell;
+    padding: 20px;
+    width: 40%;
+    background-color: cornflowerblue;
+}
+
+.kolumni2-2{
+    display: table-cell;
+    padding: 20px;
+    width: 40%;
+    background-color: darkorchid;
+}
+
+.article {
+    float: left;
+    width: 80%;
+    padding: 0px;
+    height: 900px;
+    background-color: cornflowerblue;
+}
+
+.article2 {
+    float: left;
+    background-color: blue;
+    width: 80%;
+    padding: 0px;
+    margin-top: 0;
+    height: 1350px;
+}
+
+.article3 {
+    float: left;
+    background-color: blueviolet;
+    width: 40%;
+    padding: 0px;
+    margin-top: 0;
+    height: 900px;
+}
+
+.aside  {
+    text-align: left;
+}
+
+.footer {
+    text-align: center;
+    color: darkslategrey;
+    background-color: lightgrey;
+    padding: 20px;
+}
+
+/* clearfix hack */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+/* tyylit */ 
+.alphabullet {
+    list-style-type: lower-alpha;
+}
+
+.boxbullet {
+    list-style-type: square;
+}
+
+/* muotoilut */
+
+div.nomics {
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%; 
+    padding: 10px; 
+}
+
+video.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.warning {
+    border: 20px outset red;
+    color: black;
+    background-color: yellow;
+    font-size: 40px;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
