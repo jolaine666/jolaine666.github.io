@@ -66,11 +66,12 @@ a:hover, a:active {
 
 .menyy   {
     display: table-cell;
-    padding: 50px;
+    padding: 30px;
     text-align: center;
+    font-size: 20px;
     width: 20%;
     background-color: black;
-    border-right: solid rgb(40, 40, 40) 1px;
+    border-right: solid rgb(30, 30, 30) 1px;
 }
 
 .kolumni1 {
@@ -140,13 +141,16 @@ video.center {
     margin-right: auto;
 }
 
+#text {
+    padding: 3px;
+}
 
 .warning {
     border: 20px outset red;
     color: black;
     background-color: yellow;
-    font-size: 40px;
-    width: 60%;
+    font-size: 25px;
+    width: 50%;
     text-align: center;
     margin: auto;
 }
