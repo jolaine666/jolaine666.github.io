@@ -61,6 +61,7 @@ a:hover, a:active {
 .kolumnikontti {
     display: table;
     width: 100%;
+    padding: 20px;
 }
 
 .menyy   {
@@ -74,7 +75,7 @@ a:hover, a:active {
 
 .kolumni1 {
     display: table-cell;
-    padding: 5px;
+    padding: 20px;
     width: 80%;
     background-color: black;
 }
@@ -82,14 +83,14 @@ a:hover, a:active {
 
 .kolumni1-2 {
     display: table-cell;
-    padding: 20px 140px 0px 0px;
+    padding: 20px 80px 0px 80px;
     width: 40%;
     background-color: black;
 }
 
 .kolumni2-2{
     display: table-cell;
-    padding: 20px 0px 0px 20px;
+    padding: 20px 0px 80px 50px;
     width: 40%;
     background-color: black;
 }
@@ -99,9 +100,9 @@ a:hover, a:active {
 }
 
 .footer {
-    text-align: center;
-    color: green;
-    background-color: black;
+    text-align: right;
+    color: rgb(70, 70, 70);
+    background-color: rgb(20, 20, 20);
     padding: 20px;
 }
 
