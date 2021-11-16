@@ -15,14 +15,16 @@ body {
 /* navigaatiot */ 
 
 .header {
-    padding: 30px;
+    padding: 10px;
     text-align: center;
     font-size: 35px;
     background-color: thistle;
 }
     
-.nav {
+.navi {
     text-align: center;
+    padding: none;
+    margin: none;
     background-color: lightgreen;
 }
 
@@ -72,18 +74,50 @@ a:hover, a:active {
     margin: auto;
 }
 
+.kolumnikontti {
+    display: table;
+    width: 100%;
+}
+
+.menyy   {
+    display: table-cell;
+    padding: 5px;
+    text-align: center;
+    width: 20%;
+    background-color: cyan;
+}
+
+.kolumni1 {
+    display: table-cell;
+    padding: 5px;
+    width: 80%;
+    background-color: cornflowerblue;
+}
+
+
+.kolumni1-2 {
+    display: table-cell;
+    padding: 5px;
+    width: 40%;
+}
+
+.kolumni2-2{
+    display: table-cell;
+    padding: 5px;
+    width: 40%;
+}
+
 .article {
     float: left;
-    background-color: cornflowerblue;
     width: 80%;
     padding: 0px;
     height: 900px;
-
+    background-color: cornflowerblue;
 }
 
 .article2 {
     float: left;
-    background-color: cornflowerblue;
+    background-color: blue;
     width: 80%;
     padding: 0px;
     margin-top: 0;
@@ -92,7 +126,7 @@ a:hover, a:active {
 
 .article3 {
     float: left;
-    background-color: cornflowerblue;
+    background-color: blueviolet;
     width: 40%;
     padding: 0px;
     margin-top: 0;
@@ -169,7 +203,7 @@ video.center {
 }
 
 
-#warning {
+.warning {
     border: 20px outset red;
     color: black;
     background-color: yellow;
