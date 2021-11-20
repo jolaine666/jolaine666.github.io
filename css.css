@@ -17,11 +17,14 @@ body {
 
 .header {
     margin: 0;
-    padding: 20px;
+    padding: 0px;
     text-align: center;
     font-size: 125px;
-    background-color: black;
+    background-color: darkgrey;
     color: rgba(255, 217, 0, 1);
+}
+.harmaa {
+    background-color: lightgray;
 }
     
 .navi {
@@ -140,8 +143,8 @@ div.nomics {
 
 img.left-image{
     position:absolute;
-    left:45px;
-    top:10px;
+    left:5vw;
+    top:1vh;
 }
 
 video.center {
