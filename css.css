@@ -147,6 +147,11 @@ img.left-image{
     top:1vh;
 }
 
+.row{
+    background-color: black;
+    color: white;
+}
+
 video.center {
     display: block;
     margin-left: auto;
