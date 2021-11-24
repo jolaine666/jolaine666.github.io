@@ -16,22 +16,16 @@ body {
 /* värit */ 
 
 .color1 {
-    margin: 0;
-    padding: 0;
     text-align: none;
     background-color:lightgray;
 }
 
 .color2 {
-    margin: 0;
-    padding: 0;
     text-align: none;
     background-color: gray;
 }
 
 .color3 {
-    margin: 0;
-    padding: 0;
     text-align: none;
     background-color: darkgrey;
 }

@@ -99,6 +99,10 @@ a:hover, a:active {
     display: table-cell;
     padding: 20px 0px 80px 50px;
     width: 40%;
+    background-color: rgb(145, 144, 144);
+}
+
+.kolumni3 {
     background-color: black;
 }
 
