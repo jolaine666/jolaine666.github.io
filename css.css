@@ -16,10 +16,6 @@ body {
 /* navigaatiot */ 
 
 .header {
-    margin: 0;
-    padding: 0px;
-    text-align: center;
-    font-size: 125px;
     background-color: black;
     color: rgba(255, 217, 0, 1);
 }
@@ -136,7 +132,17 @@ a:hover, a:active {
     list-style-type: square;
 }
 
+.center2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #FFFF00;
+    padding: 10px;
+}
+
 /* muotoilut */
+
 
 div.nomics {
     display: block;
